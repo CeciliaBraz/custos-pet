@@ -24,6 +24,7 @@ export function* saveUser() {
   yield put(setForm({ saving: true }));
 
   try {
+    console.log(`${apiV1}/owner/signup`);
     const { data: res } = yield call(
       api.post,
       `${apiV1}/owner/signup`,

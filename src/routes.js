@@ -36,7 +36,7 @@ const TabNavigator = () => {
     <Tab.Navigator
       screenOptions={{
         headerShown: false,
-        tabBarLabelStyle: { fontSize: 16, fontWeight: "bold" },
+        tabBarLabelStyle: { fontSize: 10, fontWeight: "bold" },
         tabBarStyle: {
           backgroundColor: colors.tertiary,
           height: 55,

@@ -10,4 +10,11 @@ const api = axios.create({
     : apiAddress,
 });
 
+console.log("localhostaddress:");
+console.log(localhostAddress);
+console.log("api address:");
+console.log(apiAddress);
+console.log("axios");
+console.log(api.getUri());
+
 export default api;

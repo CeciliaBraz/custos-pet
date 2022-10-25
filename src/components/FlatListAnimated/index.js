@@ -219,16 +219,16 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   name: {
-    fontSize: 28,
+    fontSize: 20,
     fontWeight: "900",
     textTransform: "uppercase",
     letterSpacing: -1,
   },
   category: {
-    fontSize: 16,
+    fontSize: 10,
   },
   age: {
-    fontSize: 14,
+    fontSize: 10,
   },
   itemContainer: {
     height: OVERFLOW_HEIGHT * 2,
